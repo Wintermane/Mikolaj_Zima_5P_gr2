@@ -19,5 +19,14 @@ namespace Magazyn
             Assert.Equal(210, m1.pulka.Length);
             //Test tworzenia normalnej tablicy;
         }
+        [Fact]
+
+        public void Test3()
+        {
+            Magazyn m1 = new Magazyn();
+            string pozycja = m1.Wez(1);
+
+            Assert.Matches("0, 0, 3", pozycja);
+        }
     }
 }

@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{040B0B39-2A43-4833-8D9E-8B43A46C6484}|MagazynTests\\MagazynTests.csproj|solutionrelative:magazyntests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{040B0B39-2A43-4833-8D9E-8B43A46C6484}|MagazynTests\\MagazynTests.csproj|c:\\mz\\mikolaj_zima_5p_gr2\\magazyn\\magazyntests\\magazyntests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{040B0B39-2A43-4833-8D9E-8B43A46C6484}|MagazynTests\\MagazynTests.csproj|solutionrelative:magazyntests\\magazyntests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82E3AB9F-FB81-4C44-A4F5-D3D569F85BBA}|Magazyn\\Magazyn.csproj|c:\\mz\\mikolaj_zima_5p_gr2\\magazyn\\magazyn\\magazyn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82E3AB9F-FB81-4C44-A4F5-D3D569F85BBA}|Magazyn\\Magazyn.csproj|solutionrelative:magazyn\\magazyn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82E3AB9F-FB81-4C44-A4F5-D3D569F85BBA}|Magazyn\\Magazyn.csproj|c:\\mz\\mikolaj_zima_5p_gr2\\magazyn\\magazyn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82E3AB9F-FB81-4C44-A4F5-D3D569F85BBA}|Magazyn\\Magazyn.csproj|solutionrelative:magazyn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040B0B39-2A43-4833-8D9E-8B43A46C6484}|MagazynTests\\MagazynTests.csproj|c:\\mz\\mikolaj_zima_5p_gr2\\magazyn\\magazyntests\\magazyntests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{040B0B39-2A43-4833-8D9E-8B43A46C6484}|MagazynTests\\MagazynTests.csproj|solutionrelative:magazyntests\\magazyntests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MagazynTests.csproj",
               "DocumentMoniker": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\MagazynTests\\MagazynTests.csproj",
               "RelativeDocumentMoniker": "MagazynTests\\MagazynTests.csproj",
@@ -52,26 +52,27 @@
               "RelativeDocumentMoniker": "MagazynTests\\UnitTest1.cs",
               "ToolTip": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\MagazynTests\\UnitTest1.cs",
               "RelativeToolTip": "MagazynTests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T19:19:46.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Magazyn.cs",
               "DocumentMoniker": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\Magazyn\\Magazyn.cs",
               "RelativeDocumentMoniker": "Magazyn\\Magazyn.cs",
               "ToolTip": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\Magazyn\\Magazyn.cs",
               "RelativeToolTip": "Magazyn\\Magazyn.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T17:59:57.806Z"
+              "WhenOpened": "2026-09-23T17:59:57.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\Magazyn\\Program.cs",
               "RelativeDocumentMoniker": "Magazyn\\Program.cs",
@@ -79,7 +80,8 @@
               "RelativeToolTip": "Magazyn\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T17:33:09.288Z"
+              "WhenOpened": "2026-09-23T17:33:09.288Z",
+              "EditorCaption": ""
             }
           ]
         }
