@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "MagazynTests\\UnitTest1.cs",
               "ToolTip": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\MagazynTests\\UnitTest1.cs",
               "RelativeToolTip": "MagazynTests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T19:19:46.18Z",
               "EditorCaption": ""
@@ -65,7 +65,7 @@
               "RelativeDocumentMoniker": "Magazyn\\Magazyn.cs",
               "ToolTip": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\Magazyn\\Magazyn.cs",
               "RelativeToolTip": "Magazyn\\Magazyn.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwDMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T17:59:57.806Z",
               "EditorCaption": ""
@@ -80,8 +80,7 @@
               "RelativeToolTip": "Magazyn\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T17:33:09.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-23T17:33:09.288Z"
             }
           ]
         }

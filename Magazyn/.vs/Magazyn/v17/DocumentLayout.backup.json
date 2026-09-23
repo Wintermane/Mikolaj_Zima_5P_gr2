@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{040B0B39-2A43-4833-8D9E-8B43A46C6484}|MagazynTests\\MagazynTests.csproj|c:\\mz\\mikolaj_zima_5p_gr2\\magazyn\\magazyntests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{040B0B39-2A43-4833-8D9E-8B43A46C6484}|MagazynTests\\MagazynTests.csproj|solutionrelative:magazyntests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82E3AB9F-FB81-4C44-A4F5-D3D569F85BBA}|Magazyn\\Magazyn.csproj|c:\\mz\\mikolaj_zima_5p_gr2\\magazyn\\magazyn\\magazyn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82E3AB9F-FB81-4C44-A4F5-D3D569F85BBA}|Magazyn\\Magazyn.csproj|solutionrelative:magazyn\\magazyn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040B0B39-2A43-4833-8D9E-8B43A46C6484}|MagazynTests\\MagazynTests.csproj|c:\\mz\\mikolaj_zima_5p_gr2\\magazyn\\magazyntests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040B0B39-2A43-4833-8D9E-8B43A46C6484}|MagazynTests\\MagazynTests.csproj|solutionrelative:magazyntests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82E3AB9F-FB81-4C44-A4F5-D3D569F85BBA}|Magazyn\\Magazyn.csproj|c:\\mz\\mikolaj_zima_5p_gr2\\magazyn\\magazyn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,26 +46,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\MagazynTests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "MagazynTests\\UnitTest1.cs",
-              "ToolTip": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\MagazynTests\\UnitTest1.cs*",
-              "RelativeToolTip": "MagazynTests\\UnitTest1.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAcAAAAAAAAAA==",
+              "ToolTip": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\MagazynTests\\UnitTest1.cs",
+              "RelativeToolTip": "MagazynTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T19:19:46.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-23T19:19:46.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Magazyn.cs",
               "DocumentMoniker": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\Magazyn\\Magazyn.cs",
               "RelativeDocumentMoniker": "Magazyn\\Magazyn.cs",
               "ToolTip": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\Magazyn\\Magazyn.cs",
               "RelativeToolTip": "Magazyn\\Magazyn.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwDMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T17:59:57.806Z",
               "EditorCaption": ""
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Magazyn\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T17:33:09.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-23T17:33:09.288Z"
             }
           ]
         }

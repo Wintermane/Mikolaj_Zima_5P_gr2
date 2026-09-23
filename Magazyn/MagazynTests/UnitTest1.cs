@@ -28,5 +28,13 @@ namespace Magazyn
 
             Assert.Matches("0, 0, 3", pozycja);
         }
+        [Fact]
+        public void Test4()
+        {
+            Magazyn m1 = new Magazyn();
+            string pozycja = m1.Wloz(2);
+
+            Assert.Matches("0, 0, 0", pozycja);
+        }
     }
 }

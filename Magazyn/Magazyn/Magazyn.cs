@@ -120,7 +120,7 @@ namespace Magazyn
         }
         public string Wloz(int a)
         {
-            if (a<0 || a > 2)
+            if (a>=0 && a <= 2)
             {
                 int s = pulka.GetUpperBound(0) + 1;
                 int h = pulka.GetUpperBound(1) + 1;
