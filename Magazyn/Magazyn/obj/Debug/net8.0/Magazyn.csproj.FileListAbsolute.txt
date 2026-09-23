@@ -1,0 +1,15 @@
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\bin\Debug\net8.0\Magazyn.exe
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\bin\Debug\net8.0\Magazyn.deps.json
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\bin\Debug\net8.0\Magazyn.runtimeconfig.json
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\bin\Debug\net8.0\Magazyn.dll
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\bin\Debug\net8.0\Magazyn.pdb
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\Magazyn.GeneratedMSBuildEditorConfig.editorconfig
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\Magazyn.AssemblyInfoInputs.cache
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\Magazyn.AssemblyInfo.cs
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\Magazyn.csproj.CoreCompileInputs.cache
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\Magazyn.sourcelink.json
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\Magazyn.dll
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\refint\Magazyn.dll
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\Magazyn.pdb
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\Magazyn.genruntimeconfig.cache
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\ref\Magazyn.dll
