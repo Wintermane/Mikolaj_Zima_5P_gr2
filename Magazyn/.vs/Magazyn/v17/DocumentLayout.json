@@ -26,20 +26,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MagazynTests",
+              "Title": "MagazynTests.csproj",
               "DocumentMoniker": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\MagazynTests\\MagazynTests.csproj",
               "RelativeDocumentMoniker": "MagazynTests\\MagazynTests.csproj",
               "ToolTip": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\MagazynTests\\MagazynTests.csproj",
               "RelativeToolTip": "MagazynTests\\MagazynTests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-23T19:20:28.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-23T19:20:28.046Z"
             },
             {
               "$type": "Document",
@@ -49,7 +52,7 @@
               "RelativeDocumentMoniker": "MagazynTests\\UnitTest1.cs",
               "ToolTip": "C:\\mz\\Mikolaj_Zima_5P_gr2\\Magazyn\\MagazynTests\\UnitTest1.cs",
               "RelativeToolTip": "MagazynTests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T19:19:46.18Z",
               "EditorCaption": ""
@@ -64,8 +67,7 @@
               "RelativeToolTip": "Magazyn\\Magazyn.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T17:59:57.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-23T17:59:57.806Z"
             },
             {
               "$type": "Document",
