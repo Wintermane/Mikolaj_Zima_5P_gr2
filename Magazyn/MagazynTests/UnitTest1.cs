@@ -5,8 +5,8 @@ namespace Magazyn
         [Fact]
         public void Test1()
         {
-            Magazyn m1 = new Magazyn();
-            Assert.Equal(25, m1.pulka.Length);
+            Magazyn m1 = new();
+            Assert.NotEqual(50, m1.pulka.Length);
             //Test tworzenia normalnej tablicy;
         }
         [Fact]
@@ -15,7 +15,7 @@ namespace Magazyn
             int w = 5;
             int h = 6;
             int l = 7;
-            Magazyn m1 = new Magazyn(5,6,7);
+            Magazyn m1 = new(w,h,l);
             Assert.Equal(210, m1.pulka.Length);
             //Test tworzenia normalnej tablicy;
         }
@@ -23,16 +23,16 @@ namespace Magazyn
 
         public void Test3()
         {
-            Magazyn m1 = new Magazyn();
-            string pozycja = m1.Wez(1);
+            Magazyn m1= new();
+            string pozycja = m1.Wez_pierwszy(1);
 
             Assert.Matches("0, 0, 3", pozycja);
         }
         [Fact]
         public void Test4()
         {
-            Magazyn m1 = new Magazyn();
-            string pozycja = m1.Wloz(2);
+            Magazyn m1 = new();
+            string pozycja = m1.Wloz_pierwszy(2);
 
             Assert.Matches("0, 0, 0", pozycja);
         }

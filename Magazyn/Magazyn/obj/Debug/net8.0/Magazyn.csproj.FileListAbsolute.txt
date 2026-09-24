@@ -13,3 +13,4 @@ C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\refint\Magazyn.dll
 C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\Magazyn.pdb
 C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\Magazyn.genruntimeconfig.cache
 C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\ref\Magazyn.dll
+C:\mz\Mikolaj_Zima_5P_gr2\Magazyn\Magazyn\obj\Debug\net8.0\Magazyn.csproj.Up2Date

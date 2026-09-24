@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading.Tasks.Dataflow;
 
 namespace Magazyn
 {
@@ -49,7 +50,7 @@ namespace Magazyn
                 }
             }
         }
-        public string Wez(int a)
+        public string Wez_pierwszy(int a)
         {
             string wynik;
             if (a == 0)
@@ -65,7 +66,7 @@ namespace Magazyn
                         {
                             if(pulka[i, j, k] == "rock")
                             {
-                                wynik = (i+", "+j+", "+k);
+                                wynik = (i + ", " + j + ", " + k);
                                 pulka[i, j, k] = "";
                                 return wynik;
                             }
@@ -118,7 +119,18 @@ namespace Magazyn
             return "Not Selected Item For Takeout. Select 0 for rock, 1 for paper, or 2 for scizzors.";
 
         }
-        public string Wloz(int a)
+
+        public string Wez_wybrany(int a, int b, int c)
+        {
+            if (pulka[a, b, c] != "")
+            {
+                string wynik = pulka[a, b, c];
+                pulka[a, b, c] = "";
+                return ("Wzięto " + wynik);
+            }
+            return "Pułka była pusta";
+        }
+        public string Wloz_pierwszy(int a)
         {
             if (a>=0 && a <= 2)
             {
@@ -153,6 +165,31 @@ namespace Magazyn
                 }
             }
             return "Not Selected Item For Input. Select 0 for rock, 1 for paper, or 2 for scizzors.";
+        }
+        public string Wloz_wybrany(int a, int b, int c, int d)
+        {
+            if(d>=0 && d <= 2)
+            {
+                if (pulka[a,b,c] == "")
+                {
+                    if (d == 0)
+                    {
+                        pulka[a, b, c] = "rock";
+                        return "Wlozono kamien";
+                    }else if (d == 0)
+                    {
+                        pulka[a, b, c] = "paper";
+                        return "Wlozono papier";
+                    }
+                    else
+                    {
+                        pulka[a, b, c] = "scizzors";
+                        return "Wlozono nozyce";
+                    }
+                }
+                return "Pulka byla zajeta";
+            }
+            return "Wpisz poprawny przedmiot do wlożenia";
         }
     }
 }
