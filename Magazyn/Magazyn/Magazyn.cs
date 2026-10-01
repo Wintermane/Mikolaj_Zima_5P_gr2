@@ -34,6 +34,15 @@ namespace Magazyn
         {
             pulka = new string[s, h, l];
         }
+
+        //Pokazuje wartosc wyznaczonej pulki
+        public string Pokazpulke(int a, int b, int c)
+        {
+            string wynik = pulka[a, b, c];
+            return wynik;
+        }
+        
+        //Usuwa wszystkie zawartosci pulki
         public void Wyczysc_wszystko()
         {
             int s = pulka.GetUpperBound(0) + 1;
@@ -50,6 +59,8 @@ namespace Magazyn
                 }
             }
         }
+        
+        //Usuwa z pulki pierwsza zawartosc wybrana wartoscia a
         public string Wez_pierwszy(int a)
         {
             string wynik;
@@ -120,6 +131,7 @@ namespace Magazyn
 
         }
 
+        //Usuwa wartosc z danej pulki
         public string Wez_wybrany(int a, int b, int c)
         {
             if (pulka[a, b, c] != "")
@@ -130,6 +142,8 @@ namespace Magazyn
             }
             return "Pułka była pusta";
         }
+        
+        //Wklada zawartosc wyznaczona wartoscia a do pierwszego pustego pol pulki
         public string Wloz_pierwszy(int a)
         {
             if (a>=0 && a <= 2)
@@ -166,6 +180,8 @@ namespace Magazyn
             }
             return "Not Selected Item For Input. Select 0 for rock, 1 for paper, or 2 for scizzors.";
         }
+        
+        //wklada zawartosc wyznaczona wartoscia d do pola pulka[a,b,c]
         public string Wloz_wybrany(int a, int b, int c, int d)
         {
             if(d>=0 && d <= 2)
