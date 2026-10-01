@@ -25,7 +25,7 @@ namespace Magazyn
         {
             Magazyn m1= new();
             string pozycja = m1.Wez_pierwszy(1);
-
+// 0 - rock, 1-scizzors, 2-paper
             Assert.Matches("0, 0, 3", pozycja);
         }
         [Fact]
