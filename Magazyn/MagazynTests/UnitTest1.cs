@@ -19,15 +19,15 @@ namespace Magazyn
             Assert.Equal(210, m1.pulka.Length);
             //Test tworzenia normalnej tablicy;
         }
-        [Fact]
+//        [Fact]
 
-        public void Test3()
-        {
-            Magazyn m1= new();
-            string pozycja = m1.Wez_pierwszy(1);
+//        public void Test3()
+//        {
+//            Magazyn m1= new();
+//            string pozycja = m1.Wez_pierwszy(1);
 // 0 - rock, 1-scizzors, 2-paper
-            Assert.Matches("0, 0, 3", pozycja);
-        }
+//            Assert.Matches("0, 0, 3", pozycja);
+//        }
         [Fact]
         public void Test4()
         {

@@ -9,57 +9,41 @@ namespace Magazyn
 {
     public class Magazyn
     {
-        public string[,,] pulka;
+        public Produkt[,,] pulka;
         public Magazyn()
         {
-            pulka = new string[2, 5, 5] 
-            { 
-                { 
-                    { "", "", "rock", "paper", "paper" },
-                    { "paper", "", "", "scizzors", "" },
-                    { "", "", "paper", "paper", ""},
-                    { "paper", "scizzors", "paper", "scizzors", "rock"},
-                    { "", "paper", "scizzors", "rock", "rock"},
-                },
-                { 
-                    { "paper", "paper", "rock", "", ""},
-                    { "scizzors", "", "rock", "rock", "rock"},
-                    { "", "scizzors", "", "scizzors", ""},
-                    { "rock", "rock", "paper", "", ""},
-                    {"paper", "rock", "", "paper", "" }
-                }
-            };
+            pulka = new Produkt[2, 5, 5];
         }
         public Magazyn(int s, int h, int l)
         {
-            pulka = new string[s, h, l];
+            pulka = new Produkt[s, h, l];
         }
 
         //Pokazuje wartosc wyznaczonej pulki
         public string Pokazpulke(int a, int b, int c)
         {
-            string wynik = pulka[a, b, c];
+            string wynik = pulka[a, b, c].nazwa;
             return wynik;
         }
-        
+
         //Usuwa wszystkie zawartosci pulki
         public void Wyczysc_wszystko()
         {
             int s = pulka.GetUpperBound(0) + 1;
             int h = pulka.GetUpperBound(1) + 1;
             int l = pulka.GetUpperBound(2) + 1;
-            for (int i = 0; i < s; i++) 
+            for (int i = 0; i < s; i++)
             {
                 for (int j = 0; j < h; j++)
                 {
                     for (int k = 0; k < l; k++)
                     {
-                        pulka[i, j, k] = "";
+                        pulka[i, j, k] = null;
                     }
                 }
             }
         }
-        
+
         //Usuwa z pulki pierwsza zawartosc wybrana wartoscia a
         public string Wez_pierwszy(int a)
         {
@@ -75,16 +59,16 @@ namespace Magazyn
                     {
                         for (int k = 0; k < l; k++)
                         {
-                            if(pulka[i, j, k] == "rock")
+                            if (pulka[i, j, k].nazwa == "rock")
                             {
                                 wynik = (i + ", " + j + ", " + k);
-                                pulka[i, j, k] = "";
+                                pulka[i, j, k] = null;
                                 return wynik;
                             }
                         }
                     }
                 }
-            } 
+            }
             else if (a == 1)
             {
                 int s = pulka.GetUpperBound(0) + 1;
@@ -96,16 +80,16 @@ namespace Magazyn
                     {
                         for (int k = 0; k < l; k++)
                         {
-                            if (pulka[i, j, k] == "paper")
+                            if (pulka[i, j, k].nazwa == "paper")
                             {
                                 wynik = (i + ", " + j + ", " + k);
-                                pulka[i, j, k] = "";
+                                pulka[i, j, k] = null;
                                 return wynik;
                             }
                         }
                     }
                 }
-            } 
+            }
             else if (a == 2)
             {
                 int s = pulka.GetUpperBound(0) + 1;
@@ -117,10 +101,10 @@ namespace Magazyn
                     {
                         for (int k = 0; k < l; k++)
                         {
-                            if (pulka[i, j, k] == "scizzors")
+                            if (pulka[i, j, k].nazwa == "scizzors")
                             {
                                 wynik = (i + ", " + j + ", " + k);
-                                pulka[i, j, k] = "";
+                                pulka[i, j, k]=null;
                                 return wynik;
                             }
                         }
@@ -134,19 +118,19 @@ namespace Magazyn
         //Usuwa wartosc z danej pulki
         public string Wez_wybrany(int a, int b, int c)
         {
-            if (pulka[a, b, c] != "")
+            if (pulka[a, b, c] != null)
             {
-                string wynik = pulka[a, b, c];
-                pulka[a, b, c] = "";
+                string wynik = pulka[a, b, c].nazwa;
+                pulka[a, b, c] = null;
                 return ("Wzięto " + wynik);
             }
             return "Pułka była pusta";
         }
-        
+
         //Wklada zawartosc wyznaczona wartoscia a do pierwszego pustego pol pulki
         public string Wloz_pierwszy(int a)
         {
-            if (a>=0 && a <= 2)
+            if (a >= 0 && a <= 2)
             {
                 int s = pulka.GetUpperBound(0) + 1;
                 int h = pulka.GetUpperBound(1) + 1;
@@ -157,22 +141,25 @@ namespace Magazyn
                     {
                         for (int k = 0; k < l; k++)
                         {
-                            if (pulka[i, j, k] == "")
+                            if (pulka[i, j, k] == null)
                             {
                                 string wynik = (i + ", " + j + ", " + k);
-                                if(a==0)
+                                if (a == 0)
                                 {
-                                    pulka[i, j, k] = "rock";
+                                    Produkt p = new Produkt("rock", 5.99);
+                                    pulka[i, j, k] = p;
                                 }
                                 else if (a == 1)
                                 {
-                                    pulka[i, j, k] = "paper";
+                                    Produkt p = new Produkt("paper", 2.99);
+                                    pulka[i, j, k] = p;
                                 }
                                 else
                                 {
-                                    pulka[i, j, k] = "scizzors";
+                                    Produkt p = new Produkt("scizzors", 8.99);
+                                    pulka[i, j, k] = p;
                                 }
-                                    return wynik;
+                                return wynik;
                             }
                         }
                     }
@@ -180,26 +167,30 @@ namespace Magazyn
             }
             return "Not Selected Item For Input. Select 0 for rock, 1 for paper, or 2 for scizzors.";
         }
-        
+
         //wklada zawartosc wyznaczona wartoscia d do pola pulka[a,b,c]
         public string Wloz_wybrany(int a, int b, int c, int d)
         {
-            if(d>=0 && d <= 2)
+            if (d >= 0 && d <= 2)
             {
-                if (pulka[a,b,c] == "")
+                if (pulka[a, b, c] == null)
                 {
                     if (d == 0)
                     {
-                        pulka[a, b, c] = "rock";
+                        Produkt p = new Produkt("rock", 5.99);
+                        pulka[a, b, c] = p;
                         return "Wlozono kamien";
-                    }else if (d == 0)
+                    }
+                    else if (d == 1)
                     {
-                        pulka[a, b, c] = "paper";
+                        Produkt p = new Produkt("paper", 2.99);
+                        pulka[a, b, c] = p;
                         return "Wlozono papier";
                     }
                     else
                     {
-                        pulka[a, b, c] = "scizzors";
+                        Produkt p = new Produkt("scizzors", 8.99);
+                        pulka[a, b, c] = p;
                         return "Wlozono nozyce";
                     }
                 }
