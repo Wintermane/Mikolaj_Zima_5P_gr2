@@ -67,7 +67,7 @@ namespace Magazyn
         {
             Magazyn m1 = new();
             Produkt p1 = new Produkt("gun", 300);
-            m1.Wloz_pierwszy(p1);
+            m1.pulka[0,0,0] = p1;
             Assert.NotEqual(p1, m1.pulka[0,0,0]);
             //Poprawne trzymanie produktu w pulce
         }
