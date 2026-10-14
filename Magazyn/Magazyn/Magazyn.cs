@@ -198,5 +198,37 @@ namespace Magazyn
             }
             return "Wpisz poprawny przedmiot do wlożenia";
         }
+
+        public string Wloz_pierwszy(Produkt prod)
+        {
+            int s = pulka.GetUpperBound(0) + 1;
+            int h = pulka.GetUpperBound(1) + 1;
+            int l = pulka.GetUpperBound(2) + 1;
+            for (int i = 0; i < s; i++)
+            {
+                for (int j = 0; j < h; j++)
+                {
+                    for (int k = 0; k < l; k++)
+                    {
+                        if (pulka[i, j, k] == null)
+                        {
+                            string wynik = (i + ", " + j + ", " + k);
+                                pulka[i, j, k] = prod;
+                            return wynik;
+                        }
+                    }
+                }
+            }
+            return "Brak wolnego miejsca";
+        }
+
+        public string Wloz_wybrany(int a, int b, int c, Produkt prod) {
+            if (pulka[a, b, c] == null) {
+                pulka[a,b,c] = prod;
+                string wynik = "Wlozono " + prod.nazwa;
+                return wynik;
+            }
+            return "Pulka byla zajeta";
+        }
     }
 }
